@@ -11,6 +11,7 @@ int main()
   int numItems = 0;
   char input;
   int index;
+  string buffer;
 
   index=0;
   do
@@ -24,13 +25,16 @@ int main()
 
  if(input=='A' || input=='a')
  {
+	cout<<"What is the item?\n";
+	cin>>buffer;
+
 	if(index<5)
-	{	cout<<" What is the item?\n";
-	cin>>list[index];
+	{
+	list[index]=buffer;
 	index++;}
 	else
 	{
-       		cout<< " You'll need a bigger list!\n";
+       		cout<< "You'll need a bigger list!\n";
 	}
 
  }
