@@ -12,7 +12,7 @@ int main()
   char input;
   int index;
   string buffer;
-
+  
   index=0;
   do
 {
@@ -22,6 +22,7 @@ int main()
   cout<<"\n (Q)uit";
   cout<<"\nYour choice (A/Q): ";
   cin>>input;
+
 
  if(input=='A' || input=='a')
  {
@@ -39,6 +40,14 @@ int main()
 
  }
 }while( input != 'q' && input != 'Q');
+
+	cout<< "==ITEMS TO BUY== \n";
+
+for(int items =0;items<5;items++)
+{ 	string Grocery;
+	Grocery=list[items];
+	cout<<items+1<< " " << Grocery<< "\n";
+}
 
   return 0;
 }
