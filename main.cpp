@@ -41,7 +41,7 @@ int main()
  }
 }while( input != 'q' && input != 'Q');
 
-	cout<< "==ITEMS TO BUY== \n";
+	cout<< "==ITEMS TO BUY==\n";
 
 for(int items =0;items<5;items++)
 { 	string Grocery;
