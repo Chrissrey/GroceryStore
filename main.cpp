@@ -46,7 +46,7 @@ int main()
 	cout<< "==ITEMS TO BUY==\n";
 	else
 	{ 
-		cout<<"No items to buy.\n";
+		cout<<"No items to buy!\n";
 		return 0;
 	}
 		
